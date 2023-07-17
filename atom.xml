@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-10T07:17:38.796Z</updated>
+  <updated>2023-07-16T10:41:33.816Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Treap</title>
+    <link href="http://example.com/2023/07/15/Treap/"/>
+    <id>http://example.com/2023/07/15/Treap/</id>
+    <published>2023-07-15T08:14:58.000Z</published>
+    <updated>2023-07-16T10:41:33.816Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h1 id=&quot;treap&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#treap&quot;&gt;&lt;/a&gt; &lt;span class=&quot;katex&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>计算机组成原理</title>
