@@ -252,7 +252,7 @@ TreapTreapTreap是一种将BSTBSTBST和heapheapheap集一体的数据结构，�
         
         <div class="post-cover-left">
             
-                <img data-src="/covers/2.jpg" data-sizes="auto" alt="Hello World" class="lazyload">
+                <img data-src="/covers/2.jpg" data-sizes="auto" alt="kruskal重构树" class="lazyload">
             
 
         </div>
@@ -260,23 +260,28 @@ TreapTreapTreap是一种将BSTBSTBST和heapheapheap集一体的数据结构，�
             <div class="post-meta">
                 <a><span class="icon-calendar"></span>2023-07-03</a>
                 
-                    <a><span class="icon-pencil"></span>78 字</a>
+                    <a><span class="icon-pencil"></span>1.3k 字</a>
                 
                 
-                    <a><span class="icon-clock"></span>1 分钟</a>
+                    <a><span class="icon-clock"></span>6 分钟</a>
                 
             </div>
-            <h2 class="post-title">Hello World</h2>
+            <h2 class="post-title">kruskal重构树</h2>
             <article class="post-article">
                 
-                    Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
- Quick Start
- Create a new post
-1$ hexo new "My New Post"
-More info: Writing
- Run server
-1$ hexo server
-M
+                     kruskal重构树
+以最小生成树为例，kruskal的过程是：
+
+初始时所有节点独立不联通
+对所有的边从小到大排序
+对于每一条边的两节点 ppp、 qqq
+
+若 ppp、 qqq 连通，不做操作
+若 ppp、 qqq 不连通，在 ppp ，qqq 之间连一条边
+
+直到所有节点均连通
+
+以上的所有操作均可以并查集维护， kruskal重构树的操作与kruskal大体相同，唯一的区别是在 ppp ，qqq 连边时，不选择直接连边，而是新建一个节点 fafafa ，将 fafafa 作为 ppp 、qqq 的父节点，分别与 ppp 、qqq 所在集合连一条边，同时将 fafafa 的点权设为 p
                 
             </article>
         </div>
@@ -398,10 +403,10 @@ M
             
                 <div>
                     <span class="icon-brush"></span>
-                    1.4k
+                    2.7k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    00:08
+                    00:13
                 </div>
             
             
